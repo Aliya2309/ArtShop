@@ -1,0 +1,2 @@
+<h3>ITEM SUCCESSFULLY DELETED FROM YOUR SHOP</h3>
+<a href="/">        GO BACK</a>
