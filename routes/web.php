@@ -42,6 +42,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard',
 
 Route::post('added', 'App\Http\Controllers\SellerController@populate');
 
+Route::post('searchpage', 'App\Http\Controllers\SellerController@searchbar');
+
 Route::get('deleted/{id}', 'App\Http\Controllers\SellerController@deleteitem');
 
 

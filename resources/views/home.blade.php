@@ -20,6 +20,14 @@
             </ul><br><br>
 
 
+            <h4>SEARCH PRODUCT: </h4>
+                <form action="searchpage" method="post">
+                
+                    <label > Name <label>
+                    <input type="text" name="item_name"><br><br>
+                    
+                    <button type="submit">Search</button>
+
 @foreach($data as $i)
 <div> 
     <br>

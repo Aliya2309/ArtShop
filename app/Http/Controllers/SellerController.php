@@ -92,4 +92,11 @@ class SellerController extends Controller
         $product->delete();
         return view('deleted');
     }
+
+    public function searchbar(){
+        
+        $items= request('item_name');
+        $products=Items::where('name', $items)->get();
+        return view('searchpage', ['products'=>$products]);
+    }
 }
